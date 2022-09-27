@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px" href="css/adapt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <title>Império Árabe</title>
+</head>
+
+<body>
+    <nav id="navbar-container">
+        <div id="navbar-content">
+            <img class="logo" src="img/logo1 1.png" alt="logo">
+            <ul id="navbar-items">
+                <li>
+                    <a class='nav' href="#principal">Início</a>
+                </li>
+                <li>
+                    <a class='nav' href="#marcas">Marcas</a>
+                </li>
+                <li>
+                    <a class='nav' href="#recursos">Sobre</a>
+                </li>
+                <li>
+                    <a class='nav' href="#produtos">Produtos</a>
+                </li>
+                <!-- <li>
+                    <a href="#contato">Contato</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <header id="principal"> <!--Container-->
+        <div id="principal-content">
+            <div class="title">
+                <h2 class="name-tabacaria">Tabacaria</h2>
+                <h2 class="imperio">Império Árabe</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Marcas que trabalhamos -->
+    <section id="marcas"> <!--Container-->
+        <div class="marcas-content">
+            <div class="titulos">Marcas que trabalhamos</div>
+            <div class="marcas-images">
+                <img src="img/zomo.png" alt="zomo" class="marcas">
+                <img src="img/milkink.png" alt="milk ink" class="marcas">
+                <img src="img/invictus-.png" alt="invictus" class="marcas">
+                <img src="img/triton.png" alt="cocobass" class="marcas">
+            </div>
+        </div>
+    </section>
+    <!-- /*fim marcas que trabalhamos*/ -->
+    <!-- sobre nós -->
+    <section id="recursos"><!--Container-->
+        <div class="recursos-content">
+            <div class="titulos">Sobre nós</div>
+            <div class="sobre">
+                <span class="sobre-titulo">Tabacaria Império Árabe tem como principios</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing
+                    Lorem Ipsum passages, and more
+                    recently with desktop publishing software like Aldus PageMaker including
+                    versions.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Fim sobre nós -->
+    <section id="produtos">
+        <div class="produtos-content">
+            <div class="titulos">Nossos Produtos</div>
+            <div class="produto-venda">
+                <img class="image" src="img/produto3.png" alt="Carvão de coco">
+                <div class="items">
+                    <div class="item">
+                        <h3>Carvão e Essências</h3>
+                    </div>
+                    <div class="item">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="produto-venda">
+                <img class="image" src="img/narguile.png" alt="Narguile">
+                <div class="items">
+                    <div class="item">
+                        <h3>Narguiles</h3>
+                    </div>
+                    <div class="item">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="produto-venda">
+                <img class="image" src="img/produto1.png" alt="Narguile">
+                <div class="items">
+                    <div class="item">
+                        <h3>Prato, Abafador e Pegador</h3>
+                    </div>
+                    <div class="item">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <img class="logoWhats" src="img/logoWhats.png.png" alt="logowhats" >
+            </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-content">
+            <p>©️ Copyright 2022 - Todos os direitos reservados.</p>
+            <p>Desenvolvido por Deborah Neco ❤️</p>
+        </div>
+    </footer>
+</body>
+
+<script>
+    var acessoPermitido;
+	var idade= prompt("Olá, digite a sua idade:", "");
+
+	if (idade >=18){
+		acessoPermitido=true
+	} else{
+		acessoPermitido=false
+	}
+
+	alert(acessoPermitido ? "Acesso Permitido" : "Acesso Negado");
+
+</script>
+
+</html>

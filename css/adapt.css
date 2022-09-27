@@ -1,0 +1,88 @@
+#navbar-container {
+    height: 180px;
+}
+
+/* Itens do Menu, para deixá-los em colunas*/
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/* Principal */
+#principal-container {
+    padding: 40px;
+}
+
+/* Clientes */
+#clientes-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.clientes {
+    width: 50%;
+}
+
+/* Recursos */
+#recursos-container {
+    grid-template-columns: 1fr;
+}
+
+#recursos-container .feature:nth-child(2) {
+    margin: 15px 0;
+}
+
+/* Produto */
+#produto-container {
+    flex-direction: column;
+}
+
+#items {
+    width: 90%;
+}
+
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Testimonials */
+.depoimento{
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Galeria */
+
+#galeria-container {
+    grid-template-columns: 1fr;
+}
+
+.galeria-imagem {
+    width: 100%;
+}
+
+.border{
+    border: 1px solid #bababa;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
