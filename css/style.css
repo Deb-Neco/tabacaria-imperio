@@ -18,6 +18,7 @@ a {
   padding-bottom: 50px;
   letter-spacing: 2px;
   color: #d3ab30;
+  padding-top: 25px;
 }
 #navbar-container {
   width: 100%;
@@ -115,8 +116,9 @@ a {
     1fr
   ); /*4 colunas que ocupem 1 fração da div total*/
   justify-items: center;
-  padding: 15px;
-  align-items: center
+  /* padding: 15px; */
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .marcas {
@@ -147,7 +149,6 @@ a {
   display: flex;
   flex-direction: column;
   background: #101012;
-  padding: 10px;
   border-radius: 5px;
   align-items: center;
   text-align: center;
@@ -256,6 +257,20 @@ a {
     }
 }
 
+#contato {
+  background: #000;
+  color: #eee;
+  text-align: center;
+  
+}
+.end{
+  padding-top: 30px;
+  /* padding-bottom: 30px; */
+}
+iframe{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 #footer {
   background: #333;
   text-align: center;
