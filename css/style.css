@@ -36,6 +36,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+   padding-top: 30px;
 }
 /*itens do menu, alinhamento, tirando marcador, cx alta*/
 #navbar-items {
@@ -296,7 +297,7 @@ iframe{
 
 @media (max-width: 650px) {
   body {
-      width: 90%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
