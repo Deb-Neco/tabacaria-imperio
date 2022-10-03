@@ -54,6 +54,7 @@ a {
 }
 .logo {
   width: 5%;
+  padding-bottom: 26px;
 }
 /*espaçamento*/
 #navbar-items li {
